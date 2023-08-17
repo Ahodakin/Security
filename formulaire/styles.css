@@ -1,0 +1,242 @@
+
+
+body{
+  font-family: sans-serif;
+  background: linear-gradient( rgba(106, 102, 101, 1),70%, rgba(237, 230, 1, 1)) no-repeat;
+  background-size: cover;
+	height: 100vh;
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 114px;
+}
+
+.secondaire{
+    width: 1200px;
+    height: 740px;
+    position: relative;
+} 
+ .sidebar_gche{
+    position: absolute;
+    margin-top: 20px;
+    background-color: #6A6665;
+    width: 300px;
+    height: 720px;
+    margin-left: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+span{
+  display: flex;
+ justify-content: center;
+  padding-top: 15px;
+ }
+
+.cercle{
+  width: 45px;
+	height: 45px;
+	background:  #fff;
+  color: #080908;
+  border-radius: 50%;
+	margin: 22px 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.puce_blanche{ 
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #969696;
+  border-top: none;
+  border-left: none;
+  border-right: none; 
+ } 
+ .menu{
+ cursor: pointer;
+}
+.fond_blanc{ 
+  margin: auto; 
+  margin-left: 320px;
+  display: flex;
+  margin-top: 20px;
+  background-color:#fff;
+  width: 700px;
+  height: 720px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius:10px ;
+}
+ .info{
+  display: block;
+  text-align: center;
+}
+.list-item a{
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+}
+.list-item a:hover{
+  color: #67a84e;
+  font-size: 20px;
+}
+
+form{
+  display: block;
+  width: 600px;
+  justify-content: center;
+  margin-left: 59px;
+
+}
+.genr{
+  display: inline-flex;
+  margin-top: 24px;
+}
+.selectt{
+  display: inline-block; 
+   border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px; 
+  box-sizing: border-box;
+  outline: #fff;
+  font-weight: bold;
+  width: 100%;
+  
+}
+.sgenr{
+  margin: 0 20px 0 0;
+  width: 100%;
+} 
+
+.sgenr input{
+  width: 100px;
+  display: block;
+  padding-right: 25px;
+  margin: 0 20px 0 0;
+} 
+
+input[type="number"]{
+  width: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  outline: #fff;
+  color: #150c0c;
+  font-weight:bolder; 
+}
+.valid{
+	background:  #67a84e;
+  color: #d2f6c2;
+  float: right;
+  font-size: 17px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+} 
+
+#recherch{
+   background: #67a84e;
+    font-size: 12px;
+     margin-left: -100px;
+      border-radius: initial; 
+   font-size: 17px;
+   color: #d2f6c2;
+}  
+.buttom{
+ margin-left: 450px ;
+}
+#inpu{
+  background:  #67a84e;
+  color: #d2f6c2;
+  float: right;
+  font-size: 17px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+input[type=submit]:hover{
+ font-size: 20px;
+}
+
+.champ input{
+  width: 100%;
+  height: 100%;
+}
+
+ input[type=text]{
+  border: 1px solid rgb(255, 255, 255);
+  outline: #fff;
+  color: #150c0c;
+  font-weight:bolder; 
+ 
+}
+ fieldset{
+  border: solid 1px #BD0202;
+}
+.graphe fieldset{
+ margin-top: 25px;
+margin-left: 100px;
+text-align: center;
+height: 40px;
+width: 300px  
+}
+#graphhe{
+  width: 300px;
+  width: 300px;
+  border: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  outline: #fff;
+  font-weight: bold;
+  float: inline-end;
+}
+ .fond_blanc .image img{
+  width: 108px;
+  height: 160px;
+  margin-right: -650px;
+  background: transparent;
+ }
+.image img{
+  float: right;
+ }
+
+
+
+
+.navba{
+	position: absolute;
+  height: 132px;
+	width: 100%;
+	top: 0;
+	left: 0;
+  background-color: #67a84e;
+ /* z-index: 100; */
+}
+.navba .logo{
+	width: 140px;
+	height: auto;
+    margin-top: -8px;
+
+}
+.navba ul{
+	float: right;
+	margin-right: 20px;
+    margin-top: 20px;
+}
+.navba ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navba ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navba ul li a.active,
+.navba ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}

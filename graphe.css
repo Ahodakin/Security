@@ -1,0 +1,141 @@
+* {
+    margin: 0; 
+    padding:0;
+}
+.chartCard {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .chartBox {
+    width: 88%;
+    height: 41%;
+    height: -3%;
+    margin-left: 6%;
+    margin-top: 20%;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 26, 104, 1);
+    background: white;
+}
+
+/* MODIFICATION TELEPHONE */
+@media (min-width:320px) and (max-width:412px){
+    
+    .graphe fieldset{
+        margin-top: 25px;
+       margin-left: 23px;
+       text-align: center;
+       height: 40px;
+       width: 152px  ;
+       }
+       #graphhe{
+        width: 152px  ;
+        border: 1px solid rgb(255, 255, 255);
+        box-sizing: border-box;
+        outline: #fff;
+        font-weight: bold;
+        float: inline-end;
+      }
+
+      #recherch{
+        background: #67a84e;
+        font-size: 12px;
+        margin-left: -374px;
+        border-radius: initial; 
+        font-size: 17px;
+        color: #d2f6c2;
+
+     } 
+     .fond_blanc{ 
+      background-color: #fff;
+      height: 100vh;
+      margin-left: -38%;
+      margin-top: 10%;
+      width: 100%;
+  }
+      
+      body{
+        overflow-x: hidden;
+      }
+      .fond_blanc .image img{
+        width: 30%;
+        height: 8%;
+        margin-right: 10px;
+        background: transparent;
+    }
+    .sidebar_gche{
+      height: 50%;
+      width: 39%;
+   }
+   .menu{
+    cursor: pointer;
+    display: flex;
+    margin-top: -25%;
+    overflow:scroll
+   }
+   .navba ul {
+    display: flex;
+    margin-left: -29%;
+    margin-top: 3%;
+  }
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+  margin-top: 20px;
+
+  }
+}
+/* MODIFICATION FORMAT iphone */
+@media (min-width:320px) and (max-width:428px){
+  
+  .navba ul {
+    display: flex;
+    margin-left: -25%;
+    margin-top: 3%;
+  }
+
+  .sidebar_gche{
+    height: 50%;
+    width: 39%;
+ }
+ .menu{
+  cursor: pointer;
+  display: flex;
+  margin-top: -25%;
+  overflow:scroll
+ }
+ .fond_blanc{ 
+  background-color: #fff;
+  height: 100vh;
+  margin-left: -37%;
+  margin-top: 10%;
+  width: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+
+#recherch{
+  background: #67a84e;
+  font-size: 12px;
+  margin-left: -300px;
+  border-radius: initial; 
+  font-size: 17px;
+  color: #d2f6c2;
+
+} 
+
+.graphe {
+  margin-left: 10%;
+ }
+}
+
+ /* MODIFICATION FORMAT iphone 5 6*/
+@media (min-width:20px) and (max-width:320px){
+  .navba ul {
+    display: flex;
+    margin-left: -40%;
+    margin-top: 3%;
+  }
+}

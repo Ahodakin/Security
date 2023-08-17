@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+.wrapper{
+     background: linear-gradient( rgba(106, 102, 101, 1),70%, rgba(237, 230, 1, 1)) no-repeat;
+     position: fixed;
+     height: 100vh;
+     width: 100%;
+     left: 0;
+}
+
+.navbar{
+	position: fixed;
+    height: 132px;
+	width: 100%;
+	top: 0;
+	left: 0;
+    background-color: #67a84e;
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+    margin-top: -8px;
+
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+    margin-top: 20px;
+
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .10s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    top: 40%;
+    transform: translateY(-50%);
+}
+ .txt{
+    white-space: nowrap;
+    font-size: 50px;
+     animation: scrollTxt 10s linear infinite; 
+}
+.t1{
+    color: red;
+}
+.t2{
+    color:chartreuse;
+}
+
+
+@keyframes scrollTxt {
+  10%{
+    transform: translate(10%, 0%);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+label
+{
+    display: none;
+}
+label, #toggle
+{
+    display: none;
+} 
+/* MODICATION TABLETTE NAVBAR */
+@media (min-width:768px) and (max-width:1114px)
+
+{
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    label
+{
+    display: none;
+}
+
+label, #toggle
+{
+    display: none;
+} 
+}
+/* MODIFICATION TELEPHONE NAVBAR */
+@media (min-width:318px) and (max-width:430px){
+    nav
+    {
+        height: 60px;
+    }
+
+    nav .main_pages 
+    {
+        display: none;
+    }
+    .navbar ul{	
+	display: flex;
+    margin-left: -38%;
+}
+
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    } 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+    .navbar .logo{
+        margin-top: -53px;
+        width: 26%;
+        height: 10%;
+    
+    }
+
+
+}
+
